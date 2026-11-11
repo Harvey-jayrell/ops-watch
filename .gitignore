@@ -1,0 +1,35 @@
+# Secrets: real env files are never committed, the template is
+.env*
+!.env.example
+
+# State & Runtime Data
+state.json
+
+# Editor & IDE Junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Database dumps and backups: never commit
+backups/
+*.sql
+*.sql.gz
+*.dump
+*.dump.gz
+*.backup
+*.tar
+
+# Logs
+*.log
